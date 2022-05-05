@@ -6,19 +6,25 @@ Code will stay in main branch, build will be in gh-pages branch
 Sidenote: avoid redeploying in high frequency and excessive times
 
 1) install GH-Pages dependency
-    npm install gh-pages --save-dev
+
+    `npm install gh-pages --save-dev`
 
 2) go into package.json, insert in the top: 
-    "homepage": "http://rinuya.github.io/REPO-NAME",
+
+    `"homepage": "http://rinuya.github.io/REPO-NAME",`
 
 3) then add under "scripts", right below "start":
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+
+    `"predeploy": "npm run build",`
+
+    `"deploy": "gh-pages -d build",`
 
 4) finally, run deploy command in console:
-    npm run deploy
+
+    `npm run deploy`
 
 5) go to [GH -> Settings -> Pages] and make sure the branch used is gh-pages and /root
+
 
 ## Note
 
