@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/memorycardgame/static/css/main.073c9b0a.css",
+    "main.js": "/memorycardgame/static/js/main.bc756697.js",
+    "static/js/787.f139d880.chunk.js": "/memorycardgame/static/js/787.f139d880.chunk.js",
+    "static/media/logo.svg": "/memorycardgame/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/memorycardgame/index.html",
+    "main.073c9b0a.css.map": "/memorycardgame/static/css/main.073c9b0a.css.map",
+    "main.bc756697.js.map": "/memorycardgame/static/js/main.bc756697.js.map",
+    "787.f139d880.chunk.js.map": "/memorycardgame/static/js/787.f139d880.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.bc756697.js"
+  ]
+}
