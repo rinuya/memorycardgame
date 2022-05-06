@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 
-const Card = () => {
-
+const Card = (props) => {
+    const img = props.img;
+    const onclick = props.onclick;
     return (
-        <div></div>
+        <div className="imageFrame" onClick={()=>onclick(img)}>
+            <img alt={img} src={img} />
+        </div>
     )
 }
 

@@ -6,7 +6,10 @@ const Infodisplay = () => {
 
     return (
         //Code in here
-        <div></div>
+        <div>
+            <h1>Memory game!</h1>
+            <p>Click each image only once, if you click it twice you lose!</p>
+        </div>
     )
 }
 

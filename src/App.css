@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.App{
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr fit-content;
+  max-width: 1200px;
+}
+
+/* Card-Display */
+.carddisplay{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+  grid-area: 2 / 1 / 3 / 3;
+}
+.imageFrame{
+  background-color: rgb(197, 110, 110);
+  border-radius: 10%;
+}
+.imageFrame:hover{
+  background-color: rgb(196, 74, 74);
+}
+
+.score{
+  padding: 20px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
