@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/memorycardgame/static/css/main.073c9b0a.css",
-    "main.js": "/memorycardgame/static/js/main.bc756697.js",
+    "main.css": "/memorycardgame/static/css/main.cf254c45.css",
+    "main.js": "/memorycardgame/static/js/main.8d2693ca.js",
     "static/js/787.f139d880.chunk.js": "/memorycardgame/static/js/787.f139d880.chunk.js",
-    "static/media/logo.svg": "/memorycardgame/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Character-Mona-.png": "/memorycardgame/static/media/Character-Mona-.c824eb7fb178bf8c74c9.png",
+    "static/media/Character-Albedo-.png": "/memorycardgame/static/media/Character-Albedo-.fdecd0311a173ff7511b.png",
+    "static/media/Character-Amber-.png": "/memorycardgame/static/media/Character-Amber-.80fd447cb4124c233b86.png",
+    "static/media/Character-Lisa-.png": "/memorycardgame/static/media/Character-Lisa-.64c20065892d65d341c1.png",
+    "static/media/Character-Keqing-.png": "/memorycardgame/static/media/Character-Keqing-.64cfc8b12d592df3f99d.png",
+    "static/media/Characters-Raiden-Shogun.png": "/memorycardgame/static/media/Characters-Raiden-Shogun.de2b7eb51d620820567c.png",
+    "static/media/Character-Venti-.png": "/memorycardgame/static/media/Character-Venti-.a8bfdf76a3c0c2483640.png",
+    "static/media/Character-Zhongli-.png": "/memorycardgame/static/media/Character-Zhongli-.d13b5e43b27c3335557d.png",
+    "static/media/Character-Ayato.png": "/memorycardgame/static/media/Character-Ayato.946fb2f317275c906617.png",
+    "static/media/Character-Shenhe.png": "/memorycardgame/static/media/Character-Shenhe.de4e9f194a1db0d05b2b.png",
+    "static/media/Character-Xiangling-.png": "/memorycardgame/static/media/Character-Xiangling-.1e7842d6f7bcc87d2748.png",
+    "static/media/Character-Ayaka.png": "/memorycardgame/static/media/Character-Ayaka.0ef44f9d2cf75c3d2e7a.png",
     "index.html": "/memorycardgame/index.html",
-    "main.073c9b0a.css.map": "/memorycardgame/static/css/main.073c9b0a.css.map",
-    "main.bc756697.js.map": "/memorycardgame/static/js/main.bc756697.js.map",
+    "main.cf254c45.css.map": "/memorycardgame/static/css/main.cf254c45.css.map",
+    "main.8d2693ca.js.map": "/memorycardgame/static/js/main.8d2693ca.js.map",
     "787.f139d880.chunk.js.map": "/memorycardgame/static/js/787.f139d880.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.bc756697.js"
+    "static/css/main.cf254c45.css",
+    "static/js/main.8d2693ca.js"
   ]
 }
