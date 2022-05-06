@@ -1,0 +1,14 @@
+Features that I need:
+-Scoreboard
+-Carddisplay (Take array of objects, display then using the mapping, state initially together with (clicked = false))
+
+-Random order of the array (How do I randomize the order of the array?) 
+
+-Oncardclick: array is gon take a random order, and its gonna check the current run (should be same function, check run first and then reorder the array)
+(array of all elements w attribute, that turns on and if it is already on, it will trigger a loss)
+
+Need a function that first dispalys the new highscore if any made, then resets the array of states (or if passed thru props, it should get passed in again)
+
+Structure:
+App has 3 states: highscorescore and array (which has the current run attribute, named clicked) (store array in parent of app, give it down as props)
+
