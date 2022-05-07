@@ -29,6 +29,7 @@ function App() {
   }
 
 
+
   const [cards, setCards] = useState([
     {img: Albedo, clicked: false,},
     {img: Amber, clicked: false,},
@@ -44,14 +45,31 @@ function App() {
     {img: Lisa, clicked: false,},
   ])
 
-  useEffect(() => {
-    // Do something
-  }, []);
 
   const [score, setScore]= useState({
     currentScore: 0,
     highScore: 0,
   })
+
+  useEffect(() => {
+    //triggered on every render or, if included [score], every time when score changes (which is on every render, so nothing changes)
+    //CHANGED BASED ON NUMBER OF CARDS
+    if (score.currentScore===12) {
+        alert("You win! Good job");
+        setCards(()=>{
+          return cards.map((card)=>{
+            return {...card, clicked: false}
+          })
+        });
+        
+        if (score.currentScore>score.highScore){
+          setScore({highScore: score.currentScore, currentScore: 0})
+        }
+        else{
+          setScore({...score, currentScore: 0});
+        }
+    }
+  },);
 
   const onclick = (_img) => {
     let el = cards.find(card=> card.img===_img);
@@ -73,6 +91,7 @@ function App() {
       
     }
     else {
+      //Check if all are clicked
       setCards(()=>{
         return cards.map((card) => {
           if (card.img === _img){
@@ -83,12 +102,13 @@ function App() {
           }
         })
       })
+
       shuffle(cards);
 
       setScore({...score, currentScore: score.currentScore+1});
-      
-    }
-    console.log(el)
+
+  }
+
   }
   shuffle(cards);
   
