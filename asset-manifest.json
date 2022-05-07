@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/memorycardgame/static/css/main.cf254c45.css",
-    "main.js": "/memorycardgame/static/js/main.8d2693ca.js",
+    "main.css": "/memorycardgame/static/css/main.3e402366.css",
+    "main.js": "/memorycardgame/static/js/main.b35ba12b.js",
     "static/js/787.f139d880.chunk.js": "/memorycardgame/static/js/787.f139d880.chunk.js",
     "static/media/Character-Mona-.png": "/memorycardgame/static/media/Character-Mona-.c824eb7fb178bf8c74c9.png",
     "static/media/Character-Albedo-.png": "/memorycardgame/static/media/Character-Albedo-.fdecd0311a173ff7511b.png",
@@ -16,12 +16,12 @@
     "static/media/Character-Xiangling-.png": "/memorycardgame/static/media/Character-Xiangling-.1e7842d6f7bcc87d2748.png",
     "static/media/Character-Ayaka.png": "/memorycardgame/static/media/Character-Ayaka.0ef44f9d2cf75c3d2e7a.png",
     "index.html": "/memorycardgame/index.html",
-    "main.cf254c45.css.map": "/memorycardgame/static/css/main.cf254c45.css.map",
-    "main.8d2693ca.js.map": "/memorycardgame/static/js/main.8d2693ca.js.map",
+    "main.3e402366.css.map": "/memorycardgame/static/css/main.3e402366.css.map",
+    "main.b35ba12b.js.map": "/memorycardgame/static/js/main.b35ba12b.js.map",
     "787.f139d880.chunk.js.map": "/memorycardgame/static/js/787.f139d880.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf254c45.css",
-    "static/js/main.8d2693ca.js"
+    "static/css/main.3e402366.css",
+    "static/js/main.b35ba12b.js"
   ]
 }
